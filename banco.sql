@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS crud_php_aula_02;
+
+USE crud_php_aula_02;
+
+CREATE TABLE IF NOT EXISTS users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    email VARCHAR(100)
+
+)
